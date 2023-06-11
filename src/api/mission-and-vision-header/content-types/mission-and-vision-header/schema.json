@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "mission_and_vision_headers",
+  "info": {
+    "singularName": "mission-and-vision-header",
+    "pluralName": "mission-and-vision-headers",
+    "displayName": "Mission and Vision Header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Mission & Vision"
+    },
+    "subtitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}

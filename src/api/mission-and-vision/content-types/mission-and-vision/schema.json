@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mission_and_visions",
+  "info": {
+    "singularName": "mission-and-vision",
+    "pluralName": "mission-and-visions",
+    "displayName": "Mission and Vision"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 10,
+      "default": "Mission",
+      "private": true
+    },
+    "desciption": {
+      "type": "richtext",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true,
+      "maxLength": 15
+    },
+    "icon": {
+      "type": "string",
+      "required": true,
+      "default": "fa fa-info-circle"
+    }
+  }
+}
